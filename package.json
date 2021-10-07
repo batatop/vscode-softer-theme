@@ -1,0 +1,21 @@
+{
+    "name": "softer-theme",
+    "displayName": "Softer Theme",
+    "description": "Easy to read theme with nice colors.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Softer Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Softer Dark-color-theme.json"
+            }
+        ]
+    }
+}
